@@ -1,15 +1,41 @@
-# React + TypeScript + Vite
+# 🗺️ Interactive Polygon Drawing & Overlap Detection Tool
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a **React + TypeScript + Vite** based web application that allows users to draw polygons on an interactive map, detect polygon overlaps, and export spatial data in **GeoJSON format**.
 
-Currently, two official plugins are available:
+The application uses **OpenStreetMap** for map tiles and **Turf.js** for spatial and polygon-based operations.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Hosted Application
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🔗 **Local Hosted Link:**  
+http://localhost:5173/
+
+> ⚠️ Note: Run the project locally using the steps below to access this URL.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React + TypeScript
+- **Build Tool:** Vite
+- **Mapping:** Leaflet & React-Leaflet
+- **Spatial Operations:** Turf.js
+- **State Management:** Zustand
+- **Linting:** ESLint
+- **Map Tiles:** OpenStreetMap
+
+---
+
+## ⚙️ Setup & Run Instructions
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/shivangimaurya30/project-map-app.git
+cd project-map-app
+npm install
+npm run dev
+# Open the browser and run: http://localhost:5173/
 
 ## Expanding the ESLint configuration
 
