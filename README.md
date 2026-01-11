@@ -35,7 +35,7 @@ git clone https://github.com/shivangimaurya30/project-map-app.git
 cd project-map-app
 npm install
 npm run dev
-# Open the browser and run: http://localhost:5173/
+Open the browser and run: http://localhost:5173/
 
 ## Expanding the ESLint configuration
 
